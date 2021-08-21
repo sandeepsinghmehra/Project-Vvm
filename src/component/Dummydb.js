@@ -10,15 +10,15 @@ import song8 from '../songs/Ringtone8.mp3';
 
 const songArr = [
     {
-        name: 'Umesh', 
+        name: 'Tony Allen', 
         song: song
     }, 
     {
-        name: 'Sachin', 
+        name: 'Songhoy Blues', 
         song: song1
     }, 
     {
-        name: 'Vishal', 
+        name: 'Gily Yalo', 
         song:song2
     },
     {
