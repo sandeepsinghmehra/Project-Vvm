@@ -2,23 +2,25 @@ import './About.css';
 import CoverImage from '../images/cover-image.png';
 import {FaSpotify} from 'react-icons/fa';
 import {GiGargoyle} from 'react-icons/gi';
-
+import Logo from '../images/40075.jpg';
 const About = () => {
     return (
         <>
           <div className="about">
+          <img src={Logo} alt='Logo' className="logoImage" />
               <div className="leftAbout">
-                  <div><h1>An immersive</h1>
-                       <h1> journey to discover</h1>
-                       <h1> musical artists from </h1>
-                       <h1>all over the world </h1>
+                  <div className="cardAbout">   
+                        <div className="h1">An immersive</div>
+                        <div className="h1"> journey to discover</div>
+                        <div className="h1"> musical artists from </div>
+                        <div className="h1">all over the world </div>
                    </div>
-                  <div>
-                      <p>Because music doesn’t know any borders, we invite you </p>
-                      <p>to a melodic journey in a foreign land, a world tour </p>
-                      <p>of music carrying emotions, stories and energies.</p>
-                      <p>Embark on a tour of discoveries to listen to artists</p>
-                      <p>from all over the world, a trip of 40075 kilometers.</p>
+                  <div className="cardAbout2">
+                      <p className="p">Because music doesn’t know any borders, we invite you </p>
+                      <p className="p">to a melodic journey in a foreign land, a world tour </p>
+                      <p className="p">of music carrying emotions, stories and energies.</p>
+                      <p className="p">Embark on a tour of discoveries to listen to artists</p>
+                      <p className="p">from all over the world, a trip of 40075 kilometers.</p>
                   </div>
                   <div className="aboutIcon">
                       <div><GiGargoyle /></div>
@@ -26,10 +28,8 @@ const About = () => {
                   </div>
               </div>
               <div className="rightAbout">
-                  <div>
                       <img className="image" src={CoverImage} alt='avtar' />
-                  </div>
-                  <div>
+                  <div className="tableDiv">
                     <table>
                         <thead>
                             <tr>

@@ -1,24 +1,59 @@
 .about{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+}
+.logoImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 5vw;
+    margin-left: 5vw;
 }
 .leftAbout{
+    width: 50%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    
+    background-color:  #11052C;
+    color: #fff;
+}
+.cardAbout {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vw;
+    margin-left: 5vw;
+}
+.cardAbout2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+}
+.p{
+    padding: 1px;
+    margin: 0;
 }
 .aboutIcon {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 40px;
 }
 .rightAbout {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 .image {
-    width:100%;
+    width:50%;
     height: 30vh;
+    position: absolute;
+    top: 0;
+    right:0;
+}
+.tableDiv {
+    margin-top: 40vh;
+    margin-left: 5vw;
+}
+th, td{
+    margin: 5px;
+    padding: 10px;
 }
