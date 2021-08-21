@@ -1,12 +1,12 @@
 .about{
     display: flex;
     flex-direction: row;
-   
     justify-content: space-between;
 }
 .leftAbout{
     display: flex;
     flex-direction: column;
+    
 }
 .aboutIcon {
     display: flex;

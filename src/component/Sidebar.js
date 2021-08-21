@@ -32,9 +32,8 @@ const Sidebar = () => {
                     <div className="centerMenuDiv">{songArr[2].name}</div>
                     </div>}
                 {sidebarOpen ? <>
-                <p className="previous">Previous</p>
-                <p className="next">Next</p>
-                <p className="artists"><Link to={'/about'}>About</Link></p></>: 
+                <p className="artists"><Link to={'/about'}>About</Link></p>
+                <p className="socialIcon">Facebook | Twitter</p></>: 
                 <>
                 <p className="previous">Previous</p>
                 <p className="next">Next</p>
