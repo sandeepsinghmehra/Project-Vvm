@@ -30,7 +30,7 @@ const Detail = () => {
                 </div>
             }
                 <audio className="audio-element">
-                    <source src={songArr[1].song}></source>
+                    <source src={songArr[4].song}></source>
                 </audio>
             </div>
         </>
