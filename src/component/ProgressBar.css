@@ -1,0 +1,17 @@
+.progressContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.progress {
+    height: 1px;
+    width: 30%;
+    border-radius: 50px;
+    padding-top: 10em;
+}
+.progressFiller {
+    height: 100%;
+    background-color: #fff;
+    border-radius: inherit;
+    text-align: right;
+}
