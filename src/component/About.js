@@ -39,28 +39,28 @@ const About = () => {
                         </thead>
                         <tbody>
                             <tr>
-                                <td><b>01</b>  Songhoy Blues</td>
-                                <td>Manon Jouet</td>
+                                <td><b>01</b>&emsp;Songhoy Blues</td>
+                                <td>Manon Jouet  <span style={{color:'red'}}>&rarr;</span></td>
                             </tr>
                             <tr>
-                                <td><b>02</b>  Tony Allen</td>
-                                <td>Antoine Charrier</td>
+                                <td><b>02</b> &emsp; Tony Allen</td>
+                                <td>Antoine Charrier  <span style={{color:'red'}}>&rarr;</span></td>
                             </tr>
                             <tr>
-                                <td><b>03</b>  Gily Yalo</td>
+                                <td><b>03</b> &emsp; Gily Yalo</td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td><b>04</b>Tinariwen</td>
+                                <td><b>04</b> &emsp; Tinariwen</td>
                                 <td>DEVELOPMENT</td>
                             </tr>
                             <tr>
-                                <td><b>05</b>  Melanie de Biasio</td>
-                                <td>Thomas Van Glabeke</td>
+                                <td><b>05</b> &emsp; Melanie de Biasio</td>
+                                <td>Thomas Van Glabeke <span style={{color:'red'}}>&rarr;</span></td>
                             </tr>
                             <tr>
-                                <td><b>06</b>  Melissa Laveaux</td>
-                                <td>Ludovic Bouvinet</td>
+                                <td><b>06</b> &emsp; Melissa Laveaux</td>
+                                <td>Ludovic Bouvinet  <span style={{color:'red'}}>&rarr;</span></td>
                             </tr>
                         </tbody>
                     </table>
